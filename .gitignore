@@ -1,0 +1,22 @@
+# Data files (regenerated daily)
+data/*.json
+
+# Keep sample for documentation
+!data/sample.json
+
+# Output summaries (personal)
+output/*.md
+
+# Research Interests (personal)
+research_interests.md
+
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.pyc
+venv
+
+.stignore
