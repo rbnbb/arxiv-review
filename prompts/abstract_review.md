@@ -12,19 +12,20 @@ Review each paper's abstract against the research interests. Output a markdown s
 ## Tier 1: Must Read ({count})
 Papers directly relevant to current research.
 
-### [Paper Title](url)
+### [Paper Title 1](url1)
 **Why:** 1-2 sentence explanation of relevance
-**Key:** Main contribution or method in 5-10 words
+
+### [Paper Title 2](url2)
+**Why:** 1-2 sentence explanation of relevance
 
 ## Tier 2: Worth Skimming ({count})
-Interesting but not immediately applicable.
-
-### [Paper Title](url)  
-**Why:** Brief relevance note
+- [Paper Title](url) - one-line note
+- [Paper Title](url) - one-line note
 
 ## Tier 3: Background/Reference ({count})
 Potentially useful for context or future reference.
 
+- [Paper Title](url) — one-line note
 - [Paper Title](url) — one-line note
 ```
 

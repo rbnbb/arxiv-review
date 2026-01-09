@@ -1,5 +1,4 @@
 # Title Filter Prompt
-
 You are filtering arXiv paper titles for a researcher. Read the research interests, then categorize each paper ID.
 
 ## Task
@@ -17,7 +16,6 @@ For each paper in the titles JSON, output ONLY a JSON object:
 - tier2: Possibly interesting, worth checking abstract  
 - skip: Clearly irrelevant to research interests
 - When uncertain, prefer tier2 over skip
-- Output ONLY the JSON, no explanation
 
 ## Research Interests
 {INTERESTS}
