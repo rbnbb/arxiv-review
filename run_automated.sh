@@ -30,7 +30,7 @@ mkdir -p "${DATA_DIR}" "${OUTPUT_DIR}"
 # Step 1: Fetch if not cached
 if [[ ! -f "${DATA_FILE}" ]]; then
     log "Fetching arXiv papers..."
-    python3 "${SCRIPT_DIR}/fetch_arxiv.py" "${CATEGORIES}" -o "${DATA_FILE}"
+    python3 "${SCRIPT_DIR}/fetch_arxiv.py" ${CATEGORIES} -o "${DATA_FILE}"
 fi
 
 PAPER_COUNT=$(jq '.count' "${DATA_FILE}")
