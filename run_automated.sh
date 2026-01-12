@@ -79,7 +79,7 @@ if [[ ! -f "${OUTPUT_FILE}" ]]; then
     claude --print "${ABSTRACT_PROMPT}" 2>/dev/null > "${OUTPUT_FILE}"
 fi
 
-ln -sf ~/.local/share/arxiv-review/output/2026-01-09_summary.md ~/arxiv-today.md
+ln -sf "$OUTPUT_FILE" ~/arxiv-today.md
 
 log "Done: ${OUTPUT_FILE}"
 
